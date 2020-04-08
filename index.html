@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>inc_prototype</title>
+        <title>warehouses</title>
         <link rel="stylesheet" type="text/css" href="interface.css"/>
     </head>
     <body>
-        <p> You now have <span id="cookies">0</span> cookies.</p>
-        <button onclick="cookieClick()">Get More Cookies</button>
-        <button onclick="buyCursor()">Buy Cursor</button>
-        <p>Cursors: <span id="cursors">0</span></p>
-        <p>Cost: <span id="cursorCost">10</span></p>
-        <script type="text/javascript" src="main.js"></script>
+        Money: <span id="money">0</span> </br></br></br>
+        Orders: <span id="orders0">0</span> </br>
+        Retrieved Packages: <span id="retrievedOrders0">0</span> </br>
+        Packaged Orders: <span id="packagedOrders0">0</span> </br></br>
+
+        <div id ="actionBar">
+            <div id="actionProgressBar">100%</div>
+        </div> </br>
+
+        <button onclick="makeSale(0)">Make a Sale</button>
+        <button onclick="retrieveOrder(0)">Retrieve a Package</button>
+        <button onclick="packageOrder(0)">Package an Order</button>
+        <button onclick="deliverPackage(0)">Deliver a package!</button>
+        <!-- <p>Cursors: <span id="cursors">0</span></p>
+        <p>Cost: <span id="cursorCost">10</span></p> -->
+        <script type="text/javascript" src="warehouses.js"></script>
     </body>
 </html>

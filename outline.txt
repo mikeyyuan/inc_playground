@@ -1,0 +1,7 @@
+warehouses
+    warhousenumber: 0
+    orders : array 1
+        makeSale()
+    retrievers : array 2 
+    packages : array 3
+    delivery : array 4 
